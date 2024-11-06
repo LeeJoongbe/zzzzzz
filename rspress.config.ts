@@ -15,9 +15,5 @@ export default defineConfig({
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
     ],
   },
-  builderConfig: {
-    output: {
-      assetPrefix: '/zzzzzz/',
-    },
-  },
+  base: '/zzzzzz/',
 });
